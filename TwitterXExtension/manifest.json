@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter extension",
+    "version": "1.0",
+    "description": "Removing something from somewhere",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://x.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle"
+      }
+    ]
+  }
+  
