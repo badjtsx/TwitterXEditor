@@ -1,5 +1,5 @@
 const fontCss = `
-    .css-175oi2r button {
+    .r-184id4b {
         display: none !important;
     }
 `;
