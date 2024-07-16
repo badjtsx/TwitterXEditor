@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         'CommunitiesBool', 'PremiumBool', 'VerifiedBool', 'ProfileBool', 
         'MoreBool', 'PostBool', 'WhatsHappeningBool', 'WhoToFollowBool', 'MessagesPopBool', 'PremiumAdBool', 'TermsBool', 'AllRightBool'
     ], function(result) {
-        // Example: Set the checked state of a checkbox based on saved 'switcherBool'
         document.getElementById('Switcher').checked = result.switcherBool || false;
         document.getElementById('Home').checked = result.HomeBool || false;
         document.getElementById('Explore').checked = result.ExploreBool || false;
